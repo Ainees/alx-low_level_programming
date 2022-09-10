@@ -2,22 +2,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-
-/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
+ * Description: prints the alphabet in lowercase with a newline
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char low;
+	char l;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low)
-		printf("\n")
+	for (l = 'a' ; l <= 'z'; l++)
+{
+		putchar(l);
+}
+putchar("\n");
 
-	return (0);
+return (0);
 }
