@@ -1,4 +1,3 @@
-/* This program prints the alphabet in lowercase, followed by a new line*/
 #include <stdio.h>
 
 /**
@@ -9,13 +8,11 @@
  */
 int main(void)
 {
-	char l;
-
-	for (l = 'a' ; l <= 'z'; l++)
+	char ch;
+	for (ch = 'a' ; ch <= 'z'; ch++)
 {
-		putchar(l);
+		putchar(ch);
 }
 putchar("\n");
-
 return (0);
 }
