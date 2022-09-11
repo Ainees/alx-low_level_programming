@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - starting point
  *
- * Desrciption: prints the alphabet in lowercase, and then in uppercase.
- * Return: 0
+ * Desrciption: prints the alphabet in lowercase, and then in uppercase
+ *
+ * Return: Always (0) Success
  */
 
 /* more headers goes there */
