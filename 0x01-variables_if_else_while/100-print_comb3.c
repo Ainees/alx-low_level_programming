@@ -14,7 +14,7 @@ int main(void)
 	{
 		g_d = (f / 10 + '0');
 		p_d = (f % 10 + '0');
-		if (f_d < p_d)
+		if (g_d < p_d)
 		{
 			putchar(g_d);
 			putchar(p_d);
