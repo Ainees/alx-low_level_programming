@@ -1,7 +1,7 @@
-nclude "main.h"
+#include "main.h"
 
 /**
- * print_alphabet_x10 - function to print abc 10 times
+ * print_alphabet_x10 - This function print the10 time the alphabet.
  * Definition: A program prints 10 times the alphabet, in lowercase.
  * Return: 0
  */
