@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _abs - a function that prints the last digit of a number.
- * Definition: This program will prints the last digit of a number.
+ * Description: This program will prints the last digit of a number.
  * @n: The number at present
  * Return: 0
  */
