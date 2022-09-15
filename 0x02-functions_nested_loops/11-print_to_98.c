@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * print_to_98 - Prints all natural numbers from input to 98,in order separated by a comma followed by a space.
+ * print_to_98 - This program prints all natural numbers from input to 98,in order separated by a comma followed by a space.
+ * Description: function that prints all natural numbers from n to 98, followed by a new line.
  * @n: The number to begin counting at.
  */
 void print_to_98(int n)
@@ -9,12 +10,12 @@ void print_to_98(int n)
 	{
 		while (n > 98)
 			printf("%d, ", n--);
-			printf("%d\n", n);
-		}
-		else
-		{
-			while(n < 98)
-				printf("%d, ", n++);
-			printf("%d\n", n);	
-		}
+		printf("%d\n", n);
+	}
+	else
+	{
+		while(n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);	
+	}
 }
