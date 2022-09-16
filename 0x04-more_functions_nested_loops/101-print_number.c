@@ -11,7 +11,9 @@ void print_number(int n)
 	int r;
 	int ct = 0;
 
-	if (n < 0){_putchar ('-');
+	if (n < 0)
+	{
+		_putchar ('-');
 		ld = (char)('0' - (n % 10));
 		n = n / -10;
 	}
@@ -36,7 +38,8 @@ void print_number(int n)
 	}
 	while (ct != 0)
 	{
-		_putchar('0');ct--;
+		_putchar('0');
+		ct--;
 	}
 	_putchar(ld);
 }
