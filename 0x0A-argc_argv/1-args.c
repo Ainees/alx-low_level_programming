@@ -3,9 +3,12 @@
 
 /**
  * main - print the name of the program@argc: Count arguments@argv: Arguments
+ * @argc: Count arguments
+ * @argv: Arguments
+ *
  * Return: Always 0 (Success)
  */
-int main(int argc, char *arg[])
+int main(int argc, char *argv[])
 {
 	printf("%i\n", argc - 1);
 	(void)argv;
