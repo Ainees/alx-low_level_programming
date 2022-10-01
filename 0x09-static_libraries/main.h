@@ -1,14 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * File: main.h
- * Auth: Ainees
- * Description:	Header file containing the prototypes of all functions
- *
- * included in the static library libholberton.a.
- */
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
